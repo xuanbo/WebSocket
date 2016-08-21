@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("/assets/img/bg.jpg");
+    background-color: #f5f5f5;
+}
+
+#chat {
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+#sideBar {
+    float: left;
+    width: 200px;
+    height: 100%;
+    color: #f4f4f4;
+    background-color: #2e3238;
+}
+
+#title {
+    padding: 10px;
+    height: 75px;
+}
+
+#img {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+#img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#userInfo {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#users {
+    border-top: 1px solid #ffffff;
+    overflow-y: auto;
+    height: 500px;
+}
+
+#users .user {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    font-size: 20px;
+    padding: 15px 5px;
+}
+
+#users::-webkit-scrollbar {
+    width: 4px;
+}
+#users::-webkit-scrollbar-track {
+    background-color: #ffffff;
+} /* 滚动条的滑轨背景颜色 */
+
+#users::-webkit-scrollbar-button {
+background-color: #2e3238;
+} /* 滑轨两头的监听按钮颜色 */
+
+#users::-webkit-scrollbar-thumb {
+    background-color: #2e3238;
+}
+
+#main {
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+    height: 100%;
+}
+
+#win {
+    height: 500px;
+    padding: 5px 10px;
+    overflow-y: scroll;
+}
+
+#msgContainer {
+    padding: 5px 0px;
+}
+
+.msg {
+    position: relative;
+    margin: 5px 5px;
+}
+
+.systemMessage {
+    background-color: #ff0000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 2;
+    border-radius: 4px;
+    position: absolute;
+    left: 0px;
+    word-break: break-all;
+    min-height: 30px;
+}
+
+.msgLeft {
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 2;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    left: 0px;
+    word-break: break-all;
+    min-height: 30px;
+}
+
+.msgRight {
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 2;
+    background-color: #3385ff;
+    color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    right: 0px;
+    word-break: break-all;
+    min-height: 30px;
+}
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+}
+
+#message {
+    padding: 10px;
+    height: 100%;
+    width: 97%;
+    border: none;
+    outline: 0;
+    font-family: Micrsofot Yahei;
+    resize: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#win::-webkit-scrollbar {
+    width: 5px;
+}
+#win::-webkit-scrollbar-track {
+    background-color: #ffffff;
+} /* 滚动条的滑轨背景颜色 */
+
+#win::-webkit-scrollbar-thumb {
+    background-color: #2e3238;
+} /* 滑块颜色 */
+
+/*#win::-webkit-scrollbar-button {*/
+    /*background-color: #7c2929;*/
+/*} /!* 滑轨两头的监听按钮颜色 *!/*/
+
+/*#win::-webkit-scrollbar-corner {*/
+    /*background-color: black;*/
+/*} /!* 横向滚动条和纵向滚动条相交处尖角的颜色 *!/*/
